@@ -1,0 +1,37 @@
+# Protect proprietary algorithms and sensitive data
+# This allows us to share the framework while keeping core IP private
+
+# API Keys and environment secrets
+.env
+.env.local
+.env.*
+*.env
+credentials.json
+service-account.json
+
+# Proprietary implementation files (uncommented for GitHub publishing)
+emotionalContextService.js
+memoryEnhancedService.js
+/proprietary/
+/internal/
+/secret/
+
+# Config files with sensitive values
+*config.private.js
+*settings.private.js
+
+# Local development and testing
+/dev-notes/
+/performance-tests/
+/benchmark-results/
+/test-results/
+
+# Logs and debugging
+*.log
+debug.js
+/logs/
+
+# User data
+/user-data/
+/conversations/
+/emotional-data/ 

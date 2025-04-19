@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+#enter name for your environment
+name: <name-for-environment>
+#image to be used
+image: docker.io/fastai/fastai
+#conda file to customize image
+conda_file: <path-to-conda-file>
